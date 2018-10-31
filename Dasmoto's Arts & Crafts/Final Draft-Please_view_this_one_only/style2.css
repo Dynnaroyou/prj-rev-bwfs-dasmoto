@@ -1,0 +1,122 @@
+.hero-image div{
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+.hero-image{
+
+  width: 100vw;
+  height: 50vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-size:100px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: khaki !important;
+
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg) !important;
+  background-size: cover;
+  background-color: white;
+  background-opacity: 0;
+  background-position: center center;
+  background repeat: no-repeat;
+  background-attachment: fixed;
+}
+.row h2{
+  text-align: center;
+}
+#Frames{
+  font-size: 40px;
+  font-family: Helvetica;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  background-color:mediumspringgreen;
+}
+#Frames h2{
+ font-size: 40px;
+ font-family: Helvetica;
+ color: white;
+ font-weight: bold;
+ text-align: center;
+ background-color: lightcoral;
+}
+#Frames p{
+  font-size: 20px;
+  background-color: #303030;
+}
+.Frame-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Brushes{
+  font-size: 40px;
+  font-family: Helvetica;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  background-color:mediumspringgreen;
+}
+#Brushes h2{
+  font-size: 40px;
+  font-family: Helvetica;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color:mediumspringgreen;
+}
+#Brushes p{
+  font-size: 20px;
+  text-align: left;
+  background-color: #303030;
+
+}
+.Brushes-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Paint{
+  font-size: 40px;
+  font-family: Helvetica;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  background-color:mediumspringgreen;
+}
+#Paint h2{
+  font-size: 40px;
+  font-family: Helvetica;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: skyblue;
+}
+#Paint p{
+  font-size: 20px;
+  background-color: #303030;
+}
+.Paint-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+html *{
+  font-family: Helvetica;
+  background-color: #383838;
+  background-opacity: 0.5;
+}
+.price{
+  color: #ffd13a;
+  background-color: #383838;
+}
+h3{
+  font-size: 20px;
+  text-align: center;
+}
